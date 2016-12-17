@@ -1,0 +1,70 @@
+<!DOCTYPT html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="type:text/html;charset=utf-8" >
+		<link rel="stylesheet" href="./css/public.css">
+	</head>
+	<body>
+
+<!-- 精品推荐begin --> 
+<!-- 根据需求，如果管理平台没有配置可用的精品推荐，则首页这个模块都不展示 --> 
+<div class="recommend w1200 clearfix">
+    <h2 class="clearfix">   
+        <i class="fl">精品推荐</i>          
+        <span class="fr"><a id="changeFineRecomonId" href="" onclick="changeNewFineRecomonShow(); return false;" style="display: none"><cite id="changeFineLabel" class="icon-bg fl" style="display: none"></cite>换一批</a></span>
+    </h2>    
+    <ul>       
+        <!--之前有考虑到10为越界线，不足10前台展示问题。现，因标签不存在越界情况，取消了c:if标签判断直接循环最大10  -->
+        <li id="finerecomon1">
+			<a><img id="fineimgUrl1" src="./images/1446546441786.jpg"></a>
+		</li>  
+        <li id="finerecomon2">
+			<img id="fineimgUrl2" src="./images/1481771825673.jpg">
+		</li>   
+        <li id="finerecomon3">
+			<a><img id="fineimgUrl3" src="./images/1481771869843.jpg"></a>
+		</li> 
+        <li id="finerecomon4">
+			<a><img id="fineimgUrl4" src="./images/1481771903099.jpg"></a>
+		</li> 
+        <li id="finerecomon5">
+			<a><img id="fineimgUrl5" src="./images/1481772017543.jpg"></a>
+		</li>  
+        <li id="finerecomon6">
+			<a><img id="fineimgUrl6" src="./images/1481772056269.jpg"></a>
+		</li> 
+        <li id="finerecomon7">
+			<a><img id="fineimgUrl7" src="./images/1481772088272.jpg"></a>
+		</li> 
+        <li id="finerecomon8">
+			<a><img id="fineimgUrl8" src="./images/1440493101870.jpg"></a>
+		</li> 
+        <li id="finerecomon9">
+			<a><img id="fineimgUrl9" src="./images/1440493127380.jpg"></a>
+		</li> 
+        <li id="finerecomon10">
+			<a><img id="fineimgUrl10" src="./images/1440493153893.jpg"><a>
+		</li>         
+    </ul>
+</div> 
+<style>
+/*精品推荐*/
+.recommend{margin-top:20px;}
+.recommend h2{border-bottom:4px #e40077 solid;}
+.recommend h2 i{width:151px;height:47px;line-height:47px;display:inline-block;font-size:26px;color:#727272;font-weight:lighter;font-family:"微软雅黑";}
+.recommend h2 a:link,.recommend h2 a:visited{color:#727272;}
+.recommend h2 a:hover{color:#727272;}
+.recommend h2 span{font-size:12px;font-weight:100;margin-top:20px;margin-right:10px;}
+.recommend h2 span cite{margin:4px 5px 0 0;background-position:-50px -360px;width:12px;height:13px;display:inline-block;}
+.recommend h2 span a:link,.recommend h2 span a:visited{color:#767676;}
+.recommend h2 span a:hover{color:#e40077;}
+.recommend ul{width: 1197px;margin-left: 3px;}
+.recommend ul li{float:left;}
+.recommend ul li img{width:238px;height:192px;  border-right: 1px solid #fff;border-bottom: 1px solid #fff;}
+
+</style>
+
+
+
+	</body>
+</html>
